@@ -34,10 +34,10 @@ spatial:
     - native: Y
     - native: Z
    viz: 
-    - url: test1.png
+    - url: deform0.8_tilt6l-1.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
-    - url: test3.png
+    - url: deform0.8_tilt6l-3.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
 ---

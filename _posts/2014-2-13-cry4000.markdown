@@ -244,10 +244,10 @@ spatial:
     - native: Y
     - native: Z
    viz: 
-    - url: test1.png
+    - url: cry4000-1.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
-    - url: test3.png
+    - url: cry4000-3.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 10
@@ -260,10 +260,10 @@ spatial:
     - native: Y
     - native: Z
    viz: 
-    - url: test4.png
+    - url: cry4000-4.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
-    - url: test6.png
+    - url: cry4000-6.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 11
@@ -276,10 +276,10 @@ spatial:
     - native: Y
     - native: Z
    viz: 
-    - url: test7.png
+    - url: cry4000-7.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
-    - url: test9.png
+    - url: cry4000-9.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 2
@@ -292,10 +292,10 @@ spatial:
     - native: Y
     - native: Z
    viz: 
-    - url: test10.png
+    - url: cry4000-10.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
-    - url: test12.png
+    - url: cry4000-12.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 3
@@ -308,10 +308,10 @@ spatial:
     - native: Y
     - native: Z
    viz: 
-    - url: test13.png
+    - url: cry4000-13.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
-    - url: test15.png
+    - url: cry4000-15.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 4
@@ -324,10 +324,10 @@ spatial:
     - native: Y
     - native: Z
    viz: 
-    - url: test16.png
+    - url: cry4000-16.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
-    - url: test18.png
+    - url: cry4000-18.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 5
@@ -340,10 +340,10 @@ spatial:
     - native: Y
     - native: Z
    viz: 
-    - url: test19.png
+    - url: cry4000-19.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
-    - url: test21.png
+    - url: cry4000-21.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 6
@@ -356,10 +356,10 @@ spatial:
     - native: Y
     - native: Z
    viz: 
-    - url: test22.png
+    - url: cry4000-22.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
-    - url: test24.png
+    - url: cry4000-24.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 7
@@ -372,10 +372,10 @@ spatial:
     - native: Y
     - native: Z
    viz: 
-    - url: test25.png
+    - url: cry4000-25.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
-    - url: test27.png
+    - url: cry4000-27.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 8
@@ -388,10 +388,10 @@ spatial:
     - native: Y
     - native: Z
    viz: 
-    - url: test28.png
+    - url: cry4000-28.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
-    - url: test30.png
+    - url: cry4000-30.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 9
@@ -404,10 +404,10 @@ spatial:
     - native: Y
     - native: Z
    viz: 
-    - url: test31.png
+    - url: cry4000-31.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
-    - url: test33.png
+    - url: cry4000-33.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
 ---
