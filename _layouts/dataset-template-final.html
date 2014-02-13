@@ -1,0 +1,166 @@
+---
+layout: default
+---
+<div id=main>
+<h2>{{ page.title }}</h2>
+<hr>
+{{ page.description}}
+<p class="meta">This page was generated on {{ page.date | date_to_string }} to describe information and knowledge 
+generated from 
+
+{% if site.data.dictionary.source.url %}
+<a href="{{site.data.dictionary.source[0].url}}" target="_blank">
+{% endif %}
+ 
+ 
+ {% if site.data.dictionary.source[0].name == null %}
+ 	{{site.data.dictionary.source[0].url}}
+ {% else %}
+ 	<b>{{site.data.dictionary.source[0].name}}</b>
+ {% endif %}
+ 
+ {% if site.data.dictionary.source[0].url %}
+</a>
+{% endif %}.  The information was structured into an HDF5 file format using the function 
+
+{{site.data.dictionary.convert}}
+{% if site.data.dictionary.converter[0].sha %}
+<a href="[git {{site.data.dictionary.converter[0].sha}}]" target="_blank">
+{% endif %}
+ 
+ 
+ {% if site.data.dictionary.converter[0].name == null %}
+ 	{{site.data.dictionary.converter[0].sha}}
+ {% else %}
+ 	<b>{{site.data.dictionary.converter[0].name}}</b>
+ {% endif %}
+ 
+ {% if site.data.dictionary.converter[0].sha %}
+</a>
+{% endif %}.
+
+</p>
+<p >
+<table border="0" style="width:100%;text-align:center">
+<tr>
+		<td><font style="font-size:200%"><b>{{page.spatial|size}}</b></font></td>
+		<td><font style="font-size:200%"><b>{{page.aggregate|size}}</b></font></td>
+</tr>
+<tr>
+<td>Spatial Datasets</td>
+<td>Aggregate Datasets</td>
+</tr>	
+</table>
+ </p>
+
+
+
+{% assign dict=site.data.dictionary %}
+{% if page.aggregate %}
+<center><h2 >Aggregate Information</h2></center>
+<hr>
+<br>
+<table border=1>
+<tr>
+<td></td>
+{% for colnm in page.aggregate[0].vars %}
+<td><a href="{{site.baseurl}}#{{colnm.native}}">{{colnm.native}}</a></td>
+{% endfor %}
+</tr>
+	{% for in dset in page.aggregate %}
+	{% if dset.vars %}
+	<tr>
+	<td><a href="{{page.url}}#{{dset.name}}">{{dset.name}}</a></td>
+	{% for col in dset.vars %}
+	<td><center>{{col.value}}</center></td>
+
+	{% endfor %}
+		{% endif %}
+	</tr>
+{% endfor %}
+
+</table>
+<br>
+
+{% for imurl in {{page.aggregate[-1].viz}} %}
+	{% for vnms in site.data.viz %}	
+
+	{% if {{vnms.name}} == {{imurl.name}} %}
+	<h4>{{vnms.name}}</h4>
+
+	<img src="{{site.baseurl}}assets/{{imurl.url}}" title="{{vnms.description}}"></img>	
+
+	{% endif %}
+
+	{% endfor %}
+
+{% endfor %}
+
+
+
+
+
+
+{% endif %}
+
+
+
+
+
+
+
+
+{% if dict.spatial %}
+
+
+<center><h2> Spatial Information</h2></center>
+<hr>
+
+<div id=main >
+{% for dsets in page.spatial%}
+<div id="{{dsets.name}}"><h2><p><a href="{{site.url}}#{{dsets.name}}" style="color:#000;font-variant:small-caps;">
+{{dsets.name}}</a></h2></div>
+{% if dsets.description %}
+
+<i>{{dsets.description}}</i>
+</p>
+{% endif %}
+
+<hr width="100%">
+	{% for grps in dict.spatial %}
+		{% for groupinfo in grps.group %}
+			{% if groupinfo.pretty %}
+				{% assign isfield=false %}
+				{% for getnative in dsets.vars %}
+					{% if {{groupinfo.native}} == {{getnative.native}} %}
+						{% assign isfield=true %}
+					{% endif %}
+				{% endfor %}
+				{% if {{isfield}} %}
+<a href="{{site.baseurl}}{{dict.url}}#Spatial-{{groupinfo.native}}" title="{{groupinfo.description}}" target="_blank">{{groupinfo.pretty}}</a>, 
+				{% endif %}
+				{% else %}
+</div>
+
+<h3><a style="font-color=#fff;" href="{{site.baseurl}}{{dict.url}}#Spatial-{{groupinfo.name}}" title="{{groupinfo.description}}" target="_blank">{{groupinfo.name}}</a></h3>
+
+<div style="display:inline-block">
+				{% endif %}
+		{% endfor %}
+	{% endfor %}
+	<p>
+	{% for imurl in dsets.viz %}
+	<h4>{{imurl.name}}</h4>
+	<img src="{{site.baseurl}}assets/{{imurl.url}}" width="100%" align="middle" title="{{imurl.description}}"></img>	
+
+	{% endfor %}
+	<p/>
+	
+	
+	
+<hr width="100%">
+{% endfor %} {% comment %} Ending the dataset part of the loop {% endcomment %}
+</div>
+{% endif %}
+
+</div>
