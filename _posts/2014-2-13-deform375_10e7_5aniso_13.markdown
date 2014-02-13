@@ -6,233 +6,233 @@ aggregate:
    native: /1/Aggregate
    vars: 
     - native: timestep
-      value: 6500000.000000
+      value: 6300000.000000
     - native: Nchain
       value: 20.000000
     - native: Natoms
       value: 7999.000000
     - native: Xlo
-      value: -28.269100
+      value: -28.267300
     - native: Xhi
-      value: 28.269100
+      value: 28.267300
     - native: Ylo
-      value: -14.319300
+      value: -14.322800
     - native: Yhi
-      value: 14.319300
+      value: 14.322800
     - native: Zlo
-      value: -67.969500
+      value: -67.877900
     - native: Zhi
-      value: 67.969500
+      value: 67.877900
  - name: Dataset 10
    native: /10/Aggregate
    vars: 
     - native: timestep
-      value: 6590000.000000
+      value: 6390000.000000
     - native: Nchain
       value: 20.000000
     - native: Natoms
       value: 7999.000000
     - native: Xlo
-      value: -28.217400
+      value: -28.226000
     - native: Xhi
-      value: 28.217400
+      value: 28.226000
     - native: Ylo
-      value: -14.291800
+      value: -14.164700
     - native: Yhi
-      value: 14.291800
+      value: 14.164700
     - native: Zlo
-      value: -68.584000
+      value: -68.491600
     - native: Zhi
-      value: 68.584000
+      value: 68.491600
  - name: Dataset 11
    native: /11/Aggregate
    vars: 
     - native: timestep
-      value: 6600000.000000
+      value: 6400000.000000
     - native: Nchain
       value: 20.000000
     - native: Natoms
       value: 7999.000000
     - native: Xlo
-      value: -28.173300
+      value: -28.039000
     - native: Xhi
-      value: 28.173300
+      value: 28.039000
     - native: Ylo
-      value: -14.306100
+      value: -14.221800
     - native: Yhi
-      value: 14.306100
+      value: 14.221800
     - native: Zlo
-      value: -68.652600
+      value: -68.560100
     - native: Zhi
-      value: 68.652600
+      value: 68.560100
  - name: Dataset 2
    native: /2/Aggregate
    vars: 
     - native: timestep
-      value: 6510000.000000
+      value: 6310000.000000
     - native: Nchain
       value: 20.000000
     - native: Natoms
       value: 7999.000000
     - native: Xlo
-      value: -28.307300
+      value: -28.241200
     - native: Xhi
-      value: 28.307300
+      value: 28.241200
     - native: Ylo
-      value: -14.272800
+      value: -14.390600
     - native: Yhi
-      value: 14.272800
+      value: 14.390600
     - native: Zlo
-      value: -68.037500
+      value: -67.945800
     - native: Zhi
-      value: 68.037500
+      value: 67.945800
  - name: Dataset 3
    native: /3/Aggregate
    vars: 
     - native: timestep
-      value: 6520000.000000
+      value: 6320000.000000
     - native: Nchain
       value: 20.000000
     - native: Natoms
       value: 7999.000000
     - native: Xlo
-      value: -28.271100
+      value: -28.491500
     - native: Xhi
-      value: 28.271100
+      value: 28.491500
     - native: Ylo
-      value: -14.303200
+      value: -14.135000
     - native: Yhi
-      value: 14.303200
+      value: 14.135000
     - native: Zlo
-      value: -68.105600
+      value: -68.013800
     - native: Zhi
-      value: 68.105600
+      value: 68.013800
  - name: Dataset 4
    native: /4/Aggregate
    vars: 
     - native: timestep
-      value: 6530000.000000
+      value: 6330000.000000
     - native: Nchain
       value: 20.000000
     - native: Natoms
       value: 7999.000000
     - native: Xlo
-      value: -28.374700
+      value: -28.360700
     - native: Xhi
-      value: 28.374700
+      value: 28.360700
     - native: Ylo
-      value: -14.287900
+      value: -14.188500
     - native: Yhi
-      value: 14.287900
+      value: 14.188500
     - native: Zlo
-      value: -68.173700
+      value: -68.081900
     - native: Zhi
-      value: 68.173700
+      value: 68.081900
  - name: Dataset 5
    native: /5/Aggregate
    vars: 
     - native: timestep
-      value: 6540000.000000
+      value: 6340000.000000
     - native: Nchain
       value: 20.000000
     - native: Natoms
       value: 7999.000000
     - native: Xlo
-      value: -28.032800
+      value: -28.295000
     - native: Xhi
-      value: 28.032800
+      value: 28.295000
     - native: Ylo
-      value: -14.350500
+      value: -14.231800
     - native: Yhi
-      value: 14.350500
+      value: 14.231800
     - native: Zlo
-      value: -68.241900
+      value: -68.150000
     - native: Zhi
-      value: 68.241900
+      value: 68.150000
  - name: Dataset 6
    native: /6/Aggregate
    vars: 
     - native: timestep
-      value: 6550000.000000
+      value: 6350000.000000
     - native: Nchain
       value: 20.000000
     - native: Natoms
       value: 7999.000000
     - native: Xlo
-      value: -28.163400
+      value: -28.210600
     - native: Xhi
-      value: 28.163400
+      value: 28.210600
     - native: Ylo
-      value: -14.325500
+      value: -14.273800
     - native: Yhi
-      value: 14.325500
+      value: 14.273800
     - native: Zlo
-      value: -68.310200
+      value: -68.218200
     - native: Zhi
-      value: 68.310200
+      value: 68.218200
  - name: Dataset 7
    native: /7/Aggregate
    vars: 
     - native: timestep
-      value: 6560000.000000
+      value: 6360000.000000
     - native: Nchain
       value: 20.000000
     - native: Natoms
       value: 7999.000000
     - native: Xlo
-      value: -28.044000
+      value: -28.267400
     - native: Xhi
-      value: 28.044000
+      value: 28.267400
     - native: Ylo
-      value: -14.360000
+      value: -14.173600
     - native: Yhi
-      value: 14.360000
+      value: 14.173600
     - native: Zlo
-      value: -68.378500
+      value: -68.286400
     - native: Zhi
-      value: 68.378500
+      value: 68.286400
  - name: Dataset 8
    native: /8/Aggregate
    vars: 
     - native: timestep
-      value: 6570000.000000
+      value: 6370000.000000
     - native: Nchain
       value: 20.000000
     - native: Natoms
       value: 7999.000000
     - native: Xlo
-      value: -28.002000
+      value: -28.281600
     - native: Xhi
-      value: 28.002000
+      value: 28.281600
     - native: Ylo
-      value: -14.485300
+      value: -14.187900
     - native: Yhi
-      value: 14.485300
+      value: 14.187900
     - native: Zlo
-      value: -68.446900
+      value: -68.354700
     - native: Zhi
-      value: 68.446900
+      value: 68.354700
  - name: Dataset 9
    native: /9/Aggregate
    vars: 
     - native: timestep
-      value: 6580000.000000
+      value: 6380000.000000
     - native: Nchain
       value: 20.000000
     - native: Natoms
       value: 7999.000000
     - native: Xlo
-      value: -28.269000
+      value: -28.230000
     - native: Xhi
-      value: 28.269000
+      value: 28.230000
     - native: Ylo
-      value: -14.295400
+      value: -14.175300
     - native: Yhi
-      value: 14.295400
+      value: 14.175300
     - native: Zlo
-      value: -68.515400
+      value: -68.423100
     - native: Zhi
-      value: 68.515400
+      value: 68.423100
 spatial: 
  - name: Dataset 1
    native: /1/Spatial
@@ -243,13 +243,6 @@ spatial:
     - native: X
     - native: Y
     - native: Z
-   viz: 
-    - url: test69.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
-    - url: test71.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 10
    native: /10/Spatial
    description: 
@@ -259,13 +252,6 @@ spatial:
     - native: X
     - native: Y
     - native: Z
-   viz: 
-    - url: test72.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
-    - url: test74.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 11
    native: /11/Spatial
    description: 
@@ -275,13 +261,6 @@ spatial:
     - native: X
     - native: Y
     - native: Z
-   viz: 
-    - url: test75.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
-    - url: test77.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 2
    native: /2/Spatial
    description: 
@@ -291,13 +270,6 @@ spatial:
     - native: X
     - native: Y
     - native: Z
-   viz: 
-    - url: test78.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
-    - url: test80.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 3
    native: /3/Spatial
    description: 
@@ -307,13 +279,6 @@ spatial:
     - native: X
     - native: Y
     - native: Z
-   viz: 
-    - url: test81.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
-    - url: test83.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 4
    native: /4/Spatial
    description: 
@@ -323,13 +288,6 @@ spatial:
     - native: X
     - native: Y
     - native: Z
-   viz: 
-    - url: test84.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
-    - url: test86.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 5
    native: /5/Spatial
    description: 
@@ -339,13 +297,6 @@ spatial:
     - native: X
     - native: Y
     - native: Z
-   viz: 
-    - url: test87.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
-    - url: test89.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 6
    native: /6/Spatial
    description: 
@@ -355,13 +306,6 @@ spatial:
     - native: X
     - native: Y
     - native: Z
-   viz: 
-    - url: test90.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
-    - url: test92.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 7
    native: /7/Spatial
    description: 
@@ -371,13 +315,6 @@ spatial:
     - native: X
     - native: Y
     - native: Z
-   viz: 
-    - url: test93.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
-    - url: test95.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 8
    native: /8/Spatial
    description: 
@@ -387,13 +324,6 @@ spatial:
     - native: X
     - native: Y
     - native: Z
-   viz: 
-    - url: test96.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
-    - url: test98.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 9
    native: /9/Spatial
    description: 
@@ -403,11 +333,4 @@ spatial:
     - native: X
     - native: Y
     - native: Z
-   viz: 
-    - url: test99.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
-    - url: test101.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
 ---

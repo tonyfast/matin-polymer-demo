@@ -1,3 +1,4 @@
 name: Tony Fast's Hodge Podge
 markdown: redcarpet
 pygments: true
+baseurl: /
