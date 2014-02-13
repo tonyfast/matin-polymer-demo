@@ -243,6 +243,13 @@ spatial:
     - native: X
     - native: Y
     - native: Z
+   viz: 
+    - url: test1.png
+      name: Atomic Positions
+      description: The location of an atoms in a molecular dynamics simulation.
+    - url: test3.png
+      name: Atomic Positions
+      description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 10
    native: /10/Spatial
    description: 
@@ -252,6 +259,13 @@ spatial:
     - native: X
     - native: Y
     - native: Z
+   viz: 
+    - url: test4.png
+      name: Atomic Positions
+      description: The location of an atoms in a molecular dynamics simulation.
+    - url: test6.png
+      name: Atomic Positions
+      description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 11
    native: /11/Spatial
    description: 
@@ -261,6 +275,13 @@ spatial:
     - native: X
     - native: Y
     - native: Z
+   viz: 
+    - url: test7.png
+      name: Atomic Positions
+      description: The location of an atoms in a molecular dynamics simulation.
+    - url: test9.png
+      name: Atomic Positions
+      description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 2
    native: /2/Spatial
    description: 
@@ -270,6 +291,13 @@ spatial:
     - native: X
     - native: Y
     - native: Z
+   viz: 
+    - url: test10.png
+      name: Atomic Positions
+      description: The location of an atoms in a molecular dynamics simulation.
+    - url: test12.png
+      name: Atomic Positions
+      description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 3
    native: /3/Spatial
    description: 
@@ -279,6 +307,13 @@ spatial:
     - native: X
     - native: Y
     - native: Z
+   viz: 
+    - url: test13.png
+      name: Atomic Positions
+      description: The location of an atoms in a molecular dynamics simulation.
+    - url: test15.png
+      name: Atomic Positions
+      description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 4
    native: /4/Spatial
    description: 
@@ -288,6 +323,13 @@ spatial:
     - native: X
     - native: Y
     - native: Z
+   viz: 
+    - url: test16.png
+      name: Atomic Positions
+      description: The location of an atoms in a molecular dynamics simulation.
+    - url: test18.png
+      name: Atomic Positions
+      description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 5
    native: /5/Spatial
    description: 
@@ -297,6 +339,13 @@ spatial:
     - native: X
     - native: Y
     - native: Z
+   viz: 
+    - url: test19.png
+      name: Atomic Positions
+      description: The location of an atoms in a molecular dynamics simulation.
+    - url: test21.png
+      name: Atomic Positions
+      description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 6
    native: /6/Spatial
    description: 
@@ -306,6 +355,13 @@ spatial:
     - native: X
     - native: Y
     - native: Z
+   viz: 
+    - url: test22.png
+      name: Atomic Positions
+      description: The location of an atoms in a molecular dynamics simulation.
+    - url: test24.png
+      name: Atomic Positions
+      description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 7
    native: /7/Spatial
    description: 
@@ -315,6 +371,13 @@ spatial:
     - native: X
     - native: Y
     - native: Z
+   viz: 
+    - url: test25.png
+      name: Atomic Positions
+      description: The location of an atoms in a molecular dynamics simulation.
+    - url: test27.png
+      name: Atomic Positions
+      description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 8
    native: /8/Spatial
    description: 
@@ -324,6 +387,13 @@ spatial:
     - native: X
     - native: Y
     - native: Z
+   viz: 
+    - url: test28.png
+      name: Atomic Positions
+      description: The location of an atoms in a molecular dynamics simulation.
+    - url: test30.png
+      name: Atomic Positions
+      description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 9
    native: /9/Spatial
    description: 
@@ -333,4 +403,11 @@ spatial:
     - native: X
     - native: Y
     - native: Z
+   viz: 
+    - url: test31.png
+      name: Atomic Positions
+      description: The location of an atoms in a molecular dynamics simulation.
+    - url: test33.png
+      name: Atomic Positions
+      description: The location of an atoms in a molecular dynamics simulation.
 ---

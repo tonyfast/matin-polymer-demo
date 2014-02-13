@@ -33,4 +33,11 @@ spatial:
     - native: X
     - native: Y
     - native: Z
+   viz: 
+    - url: test1.png
+      name: Atomic Positions
+      description: The location of an atoms in a molecular dynamics simulation.
+    - url: test3.png
+      name: Atomic Positions
+      description: The location of an atoms in a molecular dynamics simulation.
 ---
