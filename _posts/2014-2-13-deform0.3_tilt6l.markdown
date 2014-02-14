@@ -7,8 +7,6 @@ aggregate:
    vars: 
     - native: timestep
       value: 20000000.000000
-    - native: Nchain
-      value: 20.000000
     - native: Natoms
       value: 7999.000000
     - native: Xlo
@@ -23,6 +21,8 @@ aggregate:
       value: -83.572700
     - native: Zhi
       value: 83.572700
+    - native: Nchain
+      value: 20.000000
 spatial: 
  - name: Dataset 1
    native: /1/Spatial
@@ -35,9 +35,6 @@ spatial:
     - native: Z
    viz: 
     - url: deform0.3_tilt6l-1.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
-    - url: deform0.3_tilt6l-3.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
 ---

@@ -1,0 +1,127 @@
+source : 
+ - name: 
+   url: http://materials.gatech.edu
+converter : 
+ - name: 
+   sha: c4187a4
+aggregate : 
+ - group : 
+   - name : General
+     description : 
+   - native : timestep
+     pretty : timestep
+     units : 
+     description : 
+     links : 
+      - url: 
+        name: 
+   - native : Natoms
+     pretty : Natoms
+     units : 
+     description : 
+     links : 
+      - url: 
+        name: 
+   - native : Xlo
+     pretty : Xlo
+     units : 
+     description : 
+     links : 
+      - url: 
+        name: 
+   - native : Xhi
+     pretty : Xhi
+     units : 
+     description : 
+     links : 
+      - url: 
+        name: 
+   - native : Ylo
+     pretty : Ylo
+     units : 
+     description : 
+     links : 
+      - url: 
+        name: 
+   - native : Yhi
+     pretty : Yhi
+     units : 
+     description : 
+     links : 
+      - url: 
+        name: 
+   - native : Zlo
+     pretty : Zlo
+     units : 
+     description : 
+     links : 
+      - url: 
+        name: 
+   - native : Zhi
+     pretty : Zhi
+     units : 
+     description : 
+     links : 
+      - url: 
+        name: 
+   - native : Nchain
+     pretty : Nchain
+     units : 
+     description : 
+     links : 
+      - url: 
+        name: 
+spatial : 
+ - group : 
+   - name : General
+     description : 
+   - native : chainid
+     pretty : chainid
+     units : 
+     description : 
+     links : 
+      - url: 
+        name: 
+     publish : 
+      - isplot: true
+      - isdisp: true
+   - native : terminus
+     pretty : terminus
+     units : 
+     description : 
+     links : 
+      - url: 
+        name: 
+     publish : 
+      - isplot: true
+      - isdisp: true
+   - native : X
+     pretty : X
+     units : 
+     description : 
+     links : 
+      - url: 
+        name: 
+     publish : 
+      - isplot: true
+      - isdisp: true
+   - native : Y
+     pretty : Y
+     units : 
+     description : 
+     links : 
+      - url: 
+        name: 
+     publish : 
+      - isplot: true
+      - isdisp: true
+   - native : Z
+     pretty : Z
+     units : 
+     description : 
+     links : 
+      - url: 
+        name: 
+     publish : 
+      - isplot: true
+      - isdisp: true

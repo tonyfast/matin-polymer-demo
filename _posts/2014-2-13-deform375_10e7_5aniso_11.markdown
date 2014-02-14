@@ -7,8 +7,6 @@ aggregate:
    vars: 
     - native: timestep
       value: 6100000.000000
-    - native: Nchain
-      value: 20.000000
     - native: Natoms
       value: 7999.000000
     - native: Xlo
@@ -23,13 +21,13 @@ aggregate:
       value: -68.143700
     - native: Zhi
       value: 68.143700
+    - native: Nchain
+      value: 20.000000
  - name: Dataset 10
    native: /10/Aggregate
    vars: 
     - native: timestep
       value: 6190000.000000
-    - native: Nchain
-      value: 20.000000
     - native: Natoms
       value: 7999.000000
     - native: Xlo
@@ -44,13 +42,13 @@ aggregate:
       value: -68.759800
     - native: Zhi
       value: 68.759800
+    - native: Nchain
+      value: 20.000000
  - name: Dataset 11
    native: /11/Aggregate
    vars: 
     - native: timestep
       value: 6200000.000000
-    - native: Nchain
-      value: 20.000000
     - native: Natoms
       value: 7999.000000
     - native: Xlo
@@ -65,13 +63,13 @@ aggregate:
       value: -68.828600
     - native: Zhi
       value: 68.828600
+    - native: Nchain
+      value: 20.000000
  - name: Dataset 2
    native: /2/Aggregate
    vars: 
     - native: timestep
       value: 6110000.000000
-    - native: Nchain
-      value: 20.000000
     - native: Natoms
       value: 7999.000000
     - native: Xlo
@@ -86,13 +84,13 @@ aggregate:
       value: -68.211900
     - native: Zhi
       value: 68.211900
+    - native: Nchain
+      value: 20.000000
  - name: Dataset 3
    native: /3/Aggregate
    vars: 
     - native: timestep
       value: 6120000.000000
-    - native: Nchain
-      value: 20.000000
     - native: Natoms
       value: 7999.000000
     - native: Xlo
@@ -107,13 +105,13 @@ aggregate:
       value: -68.280200
     - native: Zhi
       value: 68.280200
+    - native: Nchain
+      value: 20.000000
  - name: Dataset 4
    native: /4/Aggregate
    vars: 
     - native: timestep
       value: 6130000.000000
-    - native: Nchain
-      value: 20.000000
     - native: Natoms
       value: 7999.000000
     - native: Xlo
@@ -128,13 +126,13 @@ aggregate:
       value: -68.348500
     - native: Zhi
       value: 68.348500
+    - native: Nchain
+      value: 20.000000
  - name: Dataset 5
    native: /5/Aggregate
    vars: 
     - native: timestep
       value: 6140000.000000
-    - native: Nchain
-      value: 20.000000
     - native: Natoms
       value: 7999.000000
     - native: Xlo
@@ -149,13 +147,13 @@ aggregate:
       value: -68.416900
     - native: Zhi
       value: 68.416900
+    - native: Nchain
+      value: 20.000000
  - name: Dataset 6
    native: /6/Aggregate
    vars: 
     - native: timestep
       value: 6150000.000000
-    - native: Nchain
-      value: 20.000000
     - native: Natoms
       value: 7999.000000
     - native: Xlo
@@ -170,13 +168,13 @@ aggregate:
       value: -68.485300
     - native: Zhi
       value: 68.485300
+    - native: Nchain
+      value: 20.000000
  - name: Dataset 7
    native: /7/Aggregate
    vars: 
     - native: timestep
       value: 6160000.000000
-    - native: Nchain
-      value: 20.000000
     - native: Natoms
       value: 7999.000000
     - native: Xlo
@@ -191,13 +189,13 @@ aggregate:
       value: -68.553800
     - native: Zhi
       value: 68.553800
+    - native: Nchain
+      value: 20.000000
  - name: Dataset 8
    native: /8/Aggregate
    vars: 
     - native: timestep
       value: 6170000.000000
-    - native: Nchain
-      value: 20.000000
     - native: Natoms
       value: 7999.000000
     - native: Xlo
@@ -212,13 +210,13 @@ aggregate:
       value: -68.622400
     - native: Zhi
       value: 68.622400
+    - native: Nchain
+      value: 20.000000
  - name: Dataset 9
    native: /9/Aggregate
    vars: 
     - native: timestep
       value: 6180000.000000
-    - native: Nchain
-      value: 20.000000
     - native: Natoms
       value: 7999.000000
     - native: Xlo
@@ -233,6 +231,8 @@ aggregate:
       value: -68.691100
     - native: Zhi
       value: 68.691100
+    - native: Nchain
+      value: 20.000000
 spatial: 
  - name: Dataset 1
    native: /1/Spatial
@@ -247,9 +247,6 @@ spatial:
     - url: deform375_10e7_5aniso_11-1.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
-    - url: deform375_10e7_5aniso_11-3.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 10
    native: /10/Spatial
    description: 
@@ -260,10 +257,7 @@ spatial:
     - native: Y
     - native: Z
    viz: 
-    - url: deform375_10e7_5aniso_11-4.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
-    - url: deform375_10e7_5aniso_11-6.png
+    - url: deform375_10e7_5aniso_11-2.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 11
@@ -276,10 +270,7 @@ spatial:
     - native: Y
     - native: Z
    viz: 
-    - url: deform375_10e7_5aniso_11-7.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
-    - url: deform375_10e7_5aniso_11-9.png
+    - url: deform375_10e7_5aniso_11-3.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 2
@@ -292,10 +283,7 @@ spatial:
     - native: Y
     - native: Z
    viz: 
-    - url: deform375_10e7_5aniso_11-10.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
-    - url: deform375_10e7_5aniso_11-12.png
+    - url: deform375_10e7_5aniso_11-4.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 3
@@ -308,10 +296,7 @@ spatial:
     - native: Y
     - native: Z
    viz: 
-    - url: deform375_10e7_5aniso_11-13.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
-    - url: deform375_10e7_5aniso_11-15.png
+    - url: deform375_10e7_5aniso_11-5.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 4
@@ -324,10 +309,7 @@ spatial:
     - native: Y
     - native: Z
    viz: 
-    - url: deform375_10e7_5aniso_11-16.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
-    - url: deform375_10e7_5aniso_11-18.png
+    - url: deform375_10e7_5aniso_11-6.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 5
@@ -340,10 +322,7 @@ spatial:
     - native: Y
     - native: Z
    viz: 
-    - url: deform375_10e7_5aniso_11-19.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
-    - url: deform375_10e7_5aniso_11-21.png
+    - url: deform375_10e7_5aniso_11-7.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 6
@@ -356,10 +335,7 @@ spatial:
     - native: Y
     - native: Z
    viz: 
-    - url: deform375_10e7_5aniso_11-22.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
-    - url: deform375_10e7_5aniso_11-24.png
+    - url: deform375_10e7_5aniso_11-8.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 7
@@ -372,10 +348,7 @@ spatial:
     - native: Y
     - native: Z
    viz: 
-    - url: deform375_10e7_5aniso_11-25.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
-    - url: deform375_10e7_5aniso_11-27.png
+    - url: deform375_10e7_5aniso_11-9.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 8
@@ -388,10 +361,7 @@ spatial:
     - native: Y
     - native: Z
    viz: 
-    - url: deform375_10e7_5aniso_11-28.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
-    - url: deform375_10e7_5aniso_11-30.png
+    - url: deform375_10e7_5aniso_11-10.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 9
@@ -404,10 +374,7 @@ spatial:
     - native: Y
     - native: Z
    viz: 
-    - url: deform375_10e7_5aniso_11-31.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
-    - url: deform375_10e7_5aniso_11-33.png
+    - url: deform375_10e7_5aniso_11-11.png
       name: Atomic Positions
       description: The location of an atoms in a molecular dynamics simulation.
 ---

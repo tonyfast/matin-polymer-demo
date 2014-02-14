@@ -1,12 +1,5 @@
 - name: Atomic Positions
   description: "The location of an atoms in a molecular dynamics simulation."
-  data:         
-   - Xdata: X
-     Ydata: Y
-     Zdata: 
-     Cdata: chainid
-- name: Atomic Positions
-  description: "The location of an atoms in a molecular dynamics simulation."
   data: 
    - Xdata: X
      Ydata: Y
