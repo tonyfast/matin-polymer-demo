@@ -17,6 +17,8 @@ aggregate :
      links : 
       - url: 
         name: 
+   - name : Simulation Conditions
+     description :         
    - native : Natoms
      pretty : Natoms
      units : 
@@ -24,6 +26,15 @@ aggregate :
      links : 
       - url: 
         name: 
+   - native : Nchain
+     pretty : Chains
+     units : Quantity
+     description :  Number of Chains of polymers in the simulation
+     links : 
+      - url: 
+        name: 
+   - name: Boundary Conditions
+     description: These are the limits of the boundaries reported by the Molecular Dynamics simulation.
    - native : Xlo
      pretty : Xlo
      units : 
@@ -61,13 +72,6 @@ aggregate :
         name: 
    - native : Zhi
      pretty : Zhi
-     units : 
-     description : 
-     links : 
-      - url: 
-        name: 
-   - native : Nchain
-     pretty : Nchain
      units : 
      description : 
      links : 
