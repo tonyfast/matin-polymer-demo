@@ -9,7 +9,7 @@ layout: default
 generated from 
 
 {% if site.data.dictionary.source.url %}
-<a href="{{site.data.dictionary.source[0].url}}" target="_blank">
+<a href="{{site.baseurl}}{{site.data.dictionary.source[0].url}}" target="_blank">
 {% endif %}
  
  
@@ -62,13 +62,13 @@ generated from
 <tr>
 <td></td>
 {% for colnm in page.aggregate[0].vars %}
-<td><a href="{{dict.short}}.html#Aggregate-{{colnm.native}}" target="_blank">{{colnm.native}}</a></td>
+<td><a href="{{site.baseurl}}{{dict.short}}.html#Aggregate-{{colnm.native}}" target="_blank">{{colnm.native}}</a></td>
 {% endfor %}
 </tr>
 	{% for in dset in page.aggregate %}
 	{% if dset.vars %}
 	<tr>
-	<td><a href="{{page.url}}#{{dset.name}}">{{dset.name}}</a></td>
+	<td><a href="{{site.baseurl}}{{page.url}}#{{dset.name}}">{{dset.name}}</a></td>
 	{% for col in dset.vars %}
 	<td><center>{{col.value}}</center></td>
 
@@ -116,7 +116,7 @@ generated from
 
 <div id=main >
 {% for dsets in page.spatial%}
-<div id="{{dsets.name}}"><h2><p><a href="{{page.url}}#{{dsets.name}}" style="color:#000;font-variant:small-caps;">
+<div id="{{dsets.name}}"><h2><p><a href="{{site.baseurl}}{{page.url}}#{{dsets.name}}" style="color:#000;font-variant:small-caps;">
 {{dsets.name}}</a></h2></div>
 {% if dsets.description %}
 
