@@ -64,7 +64,7 @@ generated from
 <tr>
 <td></td>
 {% for colnm in page.aggregate[0].vars %}
-<td><a href="{{site.baseurl}}#{{colnm.native}}">{{colnm.native}}</a></td>
+<td>[{colnm.native}}]{% posturl {{dict.url}} %}</td>
 {% endfor %}
 </tr>
 	{% for in dset in page.aggregate %}

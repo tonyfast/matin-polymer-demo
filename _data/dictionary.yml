@@ -1,3 +1,4 @@
+url: 2014-2-13-A-Dictionary-Template
 source : 
  - name: 
    url: http://materials.gatech.edu
@@ -15,15 +16,6 @@ aggregate :
      links : 
       - url: 
         name: 
- - group : 
-   - name : Simulation Conditions
-   - native : Nchain
-     pretty : Nchain
-     units : 
-     description : 
-     links : 
-      - url: 
-        name: 
    - native : Natoms
      pretty : Natoms
      units : 
@@ -31,8 +23,6 @@ aggregate :
      links : 
       - url: 
         name: 
- - group : 
-   - name : Simulation Boundaries
    - native : Xlo
      pretty : Xlo
      units : 
@@ -70,6 +60,13 @@ aggregate :
         name: 
    - native : Zhi
      pretty : Zhi
+     units : 
+     description : 
+     links : 
+      - url: 
+        name: 
+   - native : Nchain
+     pretty : Nchain
      units : 
      description : 
      links : 

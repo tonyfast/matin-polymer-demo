@@ -2,38 +2,39 @@
 layout: default
 ---
 <div id=main>
-
-<h2>{{ page.title }} for {{ page.description }}</h2>
+{% assign pp = site.data.dictionary %}
+<h2>{{ page.title }} </h2>
+<p><i>Describe your dictionary here</i></p>
 <p class="meta">This page was generated on {{ page.date | date_to_string }} to describe information and knowledge 
 generated from 
 
-{% if page.source[0].url %}
-<a href="{{page.source[0].url}}" target="_blank">
+{% if pp.source[0].url %}
+<a href="{{pp.source[0].url}}" target="_blank">
 {% endif %}
  
  
- {% if page.source[0].name == null %}
- 	{{page.source[0].url}}
+ {% if pp.source[0].name == null %}
+ 	{{pp.source[0].url}}
  {% else %}
- 	<b>{{page.source[0].name}}</b>
+ 	<b>{{pp.source[0].name}}</b>
  {% endif %}
  
- {% if page.source[0].url %}
+ {% if pp.source[0].url %}
 </a>
 {% endif %}.  The information was structured into an HDF5 file format using the function 
 
-{% if page.converter[0].sha %}
-<a href="{{page.converter[0].sha}}" target="_blank">
+{% if pp.converter[0].sha %}
+<a href="{{pp.converter[0].sha}}" target="_blank">
 {% endif %}
  
  
- {% if page.converter[0].name == null %}
- 	{{page.converter[0].sha}}
+ {% if pp.converter[0].name == null %}
+ 	{{pp.converter[0].sha}}
  {% else %}
- 	<b>{{page.converter[0].name}}</b>
+ 	<b>{{pp.converter[0].name}}</b>
  {% endif %}
  
- {% if page.converter[0].sha %}
+ {% if pp.converter[0].sha %}
 </a>
 {% endif %}.
 
@@ -43,16 +44,16 @@ generated from
 
 
 <br>
-{% if page.aggregate %}   {% comment %}<h1>Aggregate Group</h1>{% endcomment %}
+{% if pp.aggregate %}{% comment %}<h1>Aggregate Group</h1>{% endcomment %}
 
 <div >
     <div id="Aggregate">
-        <h1><center><a href="{{page.url}}#Aggregate" style="font-size:160%;color:black;text-decoration:none;font-variant:small-caps;">Aggregate Information</a></center></h1>
+        <h1><center><a href="{{pp.url}}#Aggregate" style="font-size:160%;color:black;text-decoration:none;font-variant:small-caps;">Aggregate Information</a></center></h1>
     
     </div>
     <hr>
     
-    {% for top in page.aggregate %}{% comment %}Sub class in spatial{% endcomment %}
+    {% for top in pp.aggregate %}{% comment %}Sub class in spatial{% endcomment %}
     {% for varnm in top.group %}{% comment %}Components of subclass{% endcomment %}
     
     
@@ -60,7 +61,7 @@ generated from
     <style="font-size:117%;"><b>
     
     <div id="Aggregate-{{varnm.native}}">
-        <h3><a href="{{page.url}}#Aggregate-{{varnm.native}}" style="font-size:125%;color:#606060;text-decoration:none;font-variant:small-caps;"><i>{{varnm.pretty}}</i></a></h3>
+        <h3><a href="{{pp.url}}#Aggregate-{{varnm.native}}" style="font-size:125%;color:#606060;text-decoration:none;font-variant:small-caps;"><i>{{varnm.pretty}}</i></a></h3>
     </div>
 
     
@@ -76,7 +77,7 @@ generated from
     {% else %}
     <hr>
     <div id="Aggregate-{{varnm.name}}">
-        <h3><a href="{{page.url}}#Aggregate-{{varnm.name}}" style="font-size:125%;color:#606060;text-decoration:none;font-variant:small-caps;"><i>{{varnm.name}}</i></a></h3>
+        <h3><a href="{{pp.url}}#Aggregate-{{varnm.name}}" style="font-size:125%;color:#606060;text-decoration:none;font-variant:small-caps;"><i>{{varnm.name}}</i></a></h3>
     </div>
     <hr>
     {% endif %}  {% comment %}varnm.pretty{% endcomment %}
@@ -122,29 +123,29 @@ generated from
 
 
 
-{% if page.aggregate and page.spatial %}
+{% if pp.aggregate and pp.spatial %}
 <hr>
 {% endif %}
 
 <br>
-{% if page.spatial %}{% comment %}<h1>Spatial Group</h1>{% endcomment %}
+{% if pp.spatial %}{% comment %}<h1>Spatial Group</h1>{% endcomment %}
 
 <div >
     <div id="Spatial">
-        <h1><center><a href="{{page.url}}#Spatial" style="font-size:160%;color:black;text-decoration:none;font-variant:small-caps;">Spatial Information</a></center></h1>
+        <h1><center><a href="{{pp.url}}#Spatial" style="font-size:160%;color:black;text-decoration:none;font-variant:small-caps;">Spatial Information</a></center></h1>
     
     </div>
     <hr>
     
-    {% for top in page.spatial %}{% comment %}Sub class in spatial{% endcomment %}
+    {% for top in pp.spatial %}{% comment %}Sub class in spatial{% endcomment %}
     {% for varnm in top.group %}{% comment %}Components of subclass{% endcomment %}
     
     
     {% if varnm.pretty %}      {% comment %}Variables in group{% endcomment %}
     <style="font-size:117%;"><b>
     
-        <div id="Spatial-{{varnm.native}}">
-        <h3><a href="{{page.url}}#Spatial-{{varnm.native}}" style="font-size:125%;color:#606060;text-decoration:none;font-variant:small-caps;"><i>{{varnm.pretty}}</i></a></h3>
+        <div id="Aggregate-{{varnm.native}}">
+        <h3><a href="{{pp.url}}#Aggregate-{{varnm.native}}" style="font-size:125%;color:#606060;text-decoration:none;font-variant:small-caps;"><i>{{varnm.pretty}}</i></a></h3>
     </div>
 
 </b></style> 
@@ -159,7 +160,7 @@ generated from
     {% else %}
     <hr>
     <div id="Spatial-{{varnm.name}}">
-        <h3><a href="{{page.url}}#Spatial-{{varnm.name}}" style="font-size:125%;color:#606060;text-decoration:none;font-variant:small-caps;"><i>{{varnm.name}}</i></a></h3>
+        <h3><a href="{{pp.url}}#Spatial-{{varnm.name}}" style="font-size:125%;color:#606060;text-decoration:none;font-variant:small-caps;"><i>{{varnm.name}}</i></a></h3>
     </div>
     <hr>
     {% endif %}  {% comment %}varnm.pretty{% endcomment %}
