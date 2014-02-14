@@ -135,12 +135,12 @@ generated from
 					{% endif %}
 				{% endfor %}
 				{% if {{isfield}} %}
-<a href="{{site.baseurl}}/{{dict.short}}.html#Spatial-{{groupinfo.native}}" title="{{groupinfo.description}}" target="_blank">{{groupinfo.pretty}}</a>, 
+<a href="{{{site.baseurl}}{dict.short}}.html#Spatial-{{groupinfo.native}}" title="{{groupinfo.description}}" target="_blank">{{groupinfo.pretty}}</a>, 
 				{% endif %}
 				{% else %}
 </div>
 
-<h3><a style="font-color=#fff;" href="{{site.baseurl}}/{{dict.short}}.html#Spatial-{{groupinfo.name}}" title="{{groupinfo.description}}" target="_blank">{{groupinfo.name}}</a></h3>
+<h3><a style="font-color=#fff;" href="{{site.baseurl}}{{dict.short}}.html#Spatial-{{groupinfo.name}}" title="{{groupinfo.description}}" target="_blank">{{groupinfo.name}}</a></h3>
 
 <div style="display:inline-block">
 				{% endif %}
@@ -149,7 +149,7 @@ generated from
 	<p>
 	{% for imurl in dsets.viz %}
 	<h4>{{imurl.name}}</h4>
-	<img src="{{site.baseurl}}/assets/{{imurl.url}}" width="100%" align="middle" title="{{imurl.description}}"></img>	
+	<img src="{{site.baseurl}}assets/{{imurl.url}}" width="100%" align="middle" title="{{imurl.description}}"></img>	
 
 	{% endfor %}
 	<p/>
