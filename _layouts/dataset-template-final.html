@@ -7,7 +7,7 @@ layout: default
 {{ page.description}}
 <p class="meta">This page was generated on {{ page.date | date_to_string }} to describe information and knowledge 
 generated from 
-
+{{site.data.dictionary.source}}
 {% if site.data.dictionary.source.url %}
 <a href="{{site.baseurl}}/{{site.data.dictionary.source[0].url}}" target="_blank">
 {% endif %}
