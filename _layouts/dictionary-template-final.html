@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <div id=main>
 {% assign pp = site.data.dictionary %}
 <h2>{{ page.title }} </h2>
@@ -42,13 +43,13 @@ generated from
 
  </p>
 
+<br>here
 
-<br>
 {% if pp.aggregate %}{% comment %}<h1>Aggregate Group</h1>{% endcomment %}
 
 <div >
     <div id="Aggregate">
-        <h1><center><a href="{{pp.url}}#Aggregate" style="font-size:160%;color:black;text-decoration:none;font-variant:small-caps;">Aggregate Information</a></center></h1>
+        <h1><center><a href="{{page.url}}#Aggregate" style="font-size:160%;color:black;text-decoration:none;font-variant:small-caps;">Aggregate Information</a></center></h1>
     
     </div>
     <hr>
@@ -61,7 +62,7 @@ generated from
     <style="font-size:117%;"><b>
     
     <div id="Aggregate-{{varnm.native}}">
-        <h3><a href="{{pp.url}}#Aggregate-{{varnm.native}}" style="font-size:125%;color:#606060;text-decoration:none;font-variant:small-caps;"><i>{{varnm.pretty}}</i></a></h3>
+        <h3><a href="{{page.url}}#Aggregate-{{varnm.native}}" style="font-size:125%;color:#606060;text-decoration:none;font-variant:small-caps;"><i>{{varnm.pretty}}</i></a></h3>
     </div>
 
     
@@ -77,7 +78,7 @@ generated from
     {% else %}
     <hr>
     <div id="Aggregate-{{varnm.name}}">
-        <h3><a href="{{pp.url}}#Aggregate-{{varnm.name}}" style="font-size:125%;color:#606060;text-decoration:none;font-variant:small-caps;"><i>{{varnm.name}}</i></a></h3>
+        <h3><a href="{{page.url}}#Aggregate-{{varnm.name}}" style="font-size:125%;color:#606060;text-decoration:none;font-variant:small-caps;"><i>{{varnm.name}}</i></a></h3>
     </div>
     <hr>
     {% endif %}  {% comment %}varnm.pretty{% endcomment %}
@@ -132,7 +133,7 @@ generated from
 
 <div >
     <div id="Spatial">
-        <h1><center><a href="{{pp.url}}#Spatial" style="font-size:160%;color:black;text-decoration:none;font-variant:small-caps;">Spatial Information</a></center></h1>
+        <h1><center><a href="{{page.url}}#Spatial" style="font-size:160%;color:black;text-decoration:none;font-variant:small-caps;">Spatial Information</a></center></h1>
     
     </div>
     <hr>
@@ -144,8 +145,8 @@ generated from
     {% if varnm.pretty %}      {% comment %}Variables in group{% endcomment %}
     <style="font-size:117%;"><b>
     
-        <div id="Aggregate-{{varnm.native}}">
-        <h3><a href="{{pp.url}}#Aggregate-{{varnm.native}}" style="font-size:125%;color:#606060;text-decoration:none;font-variant:small-caps;"><i>{{varnm.pretty}}</i></a></h3>
+        <div id="Spatial-{{varnm.native}}">
+        <h3><a href="{{page.url}}#Spatial-{{varnm.native}}" style="font-size:125%;color:#606060;text-decoration:none;font-variant:small-caps;"><i>{{varnm.pretty}}</i></a></h3>
     </div>
 
 </b></style> 
@@ -160,7 +161,7 @@ generated from
     {% else %}
     <hr>
     <div id="Spatial-{{varnm.name}}">
-        <h3><a href="{{pp.url}}#Spatial-{{varnm.name}}" style="font-size:125%;color:#606060;text-decoration:none;font-variant:small-caps;"><i>{{varnm.name}}</i></a></h3>
+        <h3><a href="{{page.url}}#Spatial-{{varnm.name}}" style="font-size:125%;color:#606060;text-decoration:none;font-variant:small-caps;"><i>{{varnm.name}}</i></a></h3>
     </div>
     <hr>
     {% endif %}  {% comment %}varnm.pretty{% endcomment %}

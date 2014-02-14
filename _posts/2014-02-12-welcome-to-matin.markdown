@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Good Morning and welcome to Matin!"
 date:   2014-02-12 15:57:47
-categories: jekyll update
+categories: matin
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
