@@ -1,4 +1,4 @@
 name: matin-demo
 markdown: redcarpet
 pygments: true
-baseurl: /matin-template
+baseurl: /matin-polymer-demo
