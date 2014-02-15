@@ -2,27 +2,6 @@
 layout: dataset-template-final
 description: Tony Fast updated these datasets.
 aggregate: 
- - name: Dataset 1
-   native: /1/Aggregate
-   vars: 
-    - native: timestep
-      value: 1000000.000000
-    - native: Natoms
-      value: 399.000000
-    - native: Xlo
-      value: -120.367000
-    - native: Xhi
-      value: 120.367000
-    - native: Ylo
-      value: -120.367000
-    - native: Yhi
-      value: 120.367000
-    - native: Zlo
-      value: -120.367000
-    - native: Zhi
-      value: 120.367000
-    - native: Nchain
-      value: 1.000000
  - name: Dataset 10
    native: /10/Aggregate
    vars: 
@@ -347,13 +326,9 @@ spatial:
     - native: X
     - native: Y
     - native: Z
-   viz: 
-    - url: cry400-9.png
-      name: Atomic Positions
-      description: The location of an atoms in a molecular dynamics simulation.
  - name: Dataset 8
    native: /8/Spatial
-   description: 
+   description: I took out visualization seven because it was too similar
    vars: 
     - native: chainid
     - native: terminus
