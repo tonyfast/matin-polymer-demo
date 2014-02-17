@@ -33,7 +33,7 @@ generated from
  	{{site.data.dictionary.converter[0].sha}}
  {% else %}
  	<b>{{site.data.dictionary.converter[0].name}}</b>
- {% endif %}
+  {% endif %}
  
  {% if site.data.dictionary.converter[0].sha %}
 </a>
@@ -52,8 +52,8 @@ generated from
 </tr>	
 </table>
  </p>
-{{page}}
-<a href="https://raw.github.com/tonyfast/matin-polymer-demo/gh-pages/_posts/{{page.url}}"></a><code>RAW</code></a>
+
+<a href="https://raw.github.com/tonyfast/matin-polymer-demo/gh-pages/_posts/{{page.url}}"><code>RAW</code></a>
 
 {% assign dict=site.data.dictionary %}
 {% if page.aggregate %}
