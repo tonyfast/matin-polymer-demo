@@ -97,10 +97,12 @@ spatial :
      publish : 
       - isplot: true
       - isdisp: true
+  - group
+    - name: Atomic Positions
    - native : X
      pretty : X
      units : 
-     description : 
+     description :  The x position
      links : 
       - url: 
         name: 
