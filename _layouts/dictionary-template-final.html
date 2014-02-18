@@ -43,7 +43,7 @@ generated from
 
  </p>
 
-<br>here
+<br>
 
 {% if pp.aggregate %}{% comment %}<h1>Aggregate Group</h1>{% endcomment %}
 
@@ -67,11 +67,13 @@ generated from
 
     
     </b></style> 
-			{% if varnm.unit %}
-		({{ varnm.unit }})
+    {% if varnm.units %}
+            
+            (<code>{{ varnm.units }}</code>)
 		{% else %}
 		<code style="font-size:110%;">(No Unit)</code>
 		{% endif %}
+			
 
     
     : describes the variable field <code>{{ varnm.native }}</code><br>
@@ -150,8 +152,9 @@ generated from
     </div>
 
 </b></style> 
-			{% if varnm.unit %}
-		({{ varnm.unit }})
+			{% if varnm.units %}
+            
+            (<code>{{ varnm.units }}</code>)
 		{% else %}
 		<code style="font-size:110%;">(No Unit)</code>
 		{% endif %}

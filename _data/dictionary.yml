@@ -13,74 +13,80 @@ aggregate :
    - native : timestep
      pretty : timestep
      units : 
-     description : 
+     description : An output of the simulation
+     links : 
+      - url: 
+        name: 
+ - group: 
+   - name: Simulation inputs
+     description : Parameters assigned to the polymers to execute the simualtion/
+   - native : Nchain
+     pretty : Nchain
+     units : 
+     description : Number of individual polymer chains in the simulation 
      links : 
       - url: 
         name: 
    - native : Natoms
      pretty : Natoms
-     units : 
-     description : 
+     units : quanity    
+     description : Number of Atoms input in to the simulation
      links : 
       - url: 
         name: 
+ - group :
+   - name : Simulation boundaries
+     description: This simulation is run using periodic boundary conditions.
    - native : Xlo
      pretty : Xlo
-     units : 
-     description : 
+     units : nm
+     description : Lower bounds of the X axis used by the simulation
      links : 
       - url: 
         name: 
    - native : Xhi
      pretty : Xhi
-     units : 
-     description : 
+     units : nm
+     description : Upper bounds of the X axis used by the simulation
      links : 
       - url: 
         name: 
    - native : Ylo
      pretty : Ylo
-     units : 
-     description : 
+     units : nm
+     description : XLower bounds of the Y axis used by the simulation
      links : 
       - url: 
         name: 
    - native : Yhi
      pretty : Yhi
-     units : 
-     description : 
+     units : nm
+     description : Upper bounds of the Y axis used by the simulation
      links : 
       - url: 
         name: 
    - native : Zlo
      pretty : Zlo
-     units : 
-     description : 
+     units : nm
+     description : Lower bounds of the Z axis used by the simulation
      links : 
       - url: 
         name: 
    - native : Zhi
      pretty : Zhi
-     units : 
-     description : 
-     links : 
-      - url: 
-        name: 
-   - native : Nchain
-     pretty : Nchain
-     units : 
-     description : 
+     units : nm
+     description : Upper bounds of the Y axis used by the simulation
      links : 
       - url: 
         name: 
 spatial : 
  - group : 
-   - name : General
+   - name : Polymer Chain Information
      description : 
    - native : chainid
      pretty : chainid
      units : 
-     description : 
+     description : A index that identifies individual polymer chains
      links : 
       - url: 
         name: 
@@ -90,7 +96,7 @@ spatial :
    - native : terminus
      pretty : terminus
      units : 
-     description : 
+     description : <2> is the end of a chain and <1> is an interior of the chain.
      links : 
       - url: 
         name: 
@@ -101,8 +107,8 @@ spatial :
    - name: Atomic Positions
    - native : X
      pretty : X
-     units : 
-     description :  The x position
+     units : nm
+     description :  The X position of the atoms.
      links : 
       - url: 
         name: 
@@ -111,8 +117,8 @@ spatial :
       - isdisp: true
    - native : Y
      pretty : Y
-     units : 
-     description : 
+     units : nm
+     description : The Y position of the atoms.
      links : 
       - url: 
         name: 
@@ -121,8 +127,8 @@ spatial :
       - isdisp: true
    - native : Z
      pretty : Z
-     units : 
-     description : 
+     units : nm
+     description : The Z position of the atoms.
      links : 
       - url: 
         name: 
