@@ -97,7 +97,7 @@ spatial :
      publish : 
       - isplot: true
       - isdisp: true
- - group
+ - group:
    - name: Atomic Positions
    - native : X
      pretty : X
